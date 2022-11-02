@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson 16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<section class="page__form form">
+				<div class="form__conteiner">
+					<div class="form__media">
+						<img src="img/illustration.svg" alt="illustration">
+					</div>
+					<div class="form__main main-form">
+						<div class="main-form__heading">
+							<h2 class="main__form-subtitle">Any questions?</h2>
+							<h1 class="main__form-title">Drop us a line</h1>
+						</div>
+						<form class="main-form__items" action="#" enctype="multipart/form-data" method="get">
+							<div class="main-form__item item">
+								<div class="item__block">
+									<label for="firstname" class="item__label">First Name*</label>
+									<input id="firstname" type="text" class="item__input" required autocomplete="off"
+										placeholder="Your first name">
+								</div>
+								<div class="item__block">
+									<label for="lastname" class="item__label">Last Name*</label>
+									<input id="lastname" type="text" class="item__input" required autocomplete="off"
+										placeholder="Your last name">
+								</div>
+								<div class="item__block">
+									<label for="email" class="item__label">Email*</label>
+									<input id="email" type="text" class="item__input" required autocomplete="off"
+										placeholder="Your working email">
+								</div>
+								<div class="item__block">
+									<label for="tel" class="item__label">Phone</label>
+									<input id="tel" type="tel" class="item__input" autocomplete="off"
+										placeholder="Your phone number">
+								</div>
+								<div class="item__block item__block--tarea">
+									<label for="message" class="item__label">Message*</label>
+									<textarea id="message" name="form[]" class="item__input item__input--message" placeholder="Your message"
+										required></textarea>
+								</div>
+								<div class="item__agre agre-item">
+									<input id="check" type="checkbox" class="agre-item__input" required>
+									<label for="check" class="agre-item__label"><span class="agre-item__text">I agree to
+											receive communications from
+											Createx
+											Online School</span></label>
+									<button type="submit" class="agree-item__button button"><span>Send message</span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+</html>
